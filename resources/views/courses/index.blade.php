@@ -1,11 +1,13 @@
-@extends('layouts.app')
+{{-- resources/views/courses/index.blade.php --}}
+@extends('app')
 
 @section('content')
     <h1 class="mb-3">Courses</h1>
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th>Title</th><th>Student</th>
+                <th>Title</th>
+                <th>Student</th>
             </tr>
         </thead>
         <tbody>
